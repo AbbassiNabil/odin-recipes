@@ -1,0 +1,29 @@
+div {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #EEEEEE;
+}
+
+.titolo-1 {
+  text-align: center;
+  background-color: rgba(9, 93, 93, 0.367);
+  padding: 20px;
+}
+
+.introduction {
+  background-color: #548CA8;
+}
+
+.main-content {
+  background-color: #476072;
+}
+
+.contact-us {
+  background-color: #334257;
+}
+.link-1 {
+  background-color: rgb(115, 196, 169);
+  margin: 40px;
+  border: #334257;
+}
