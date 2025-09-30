@@ -1,29 +1,118 @@
-div {
-  padding: 10px;
-  text-align: center;
-  margin-bottom: 5px;
-  color: #EEEEEE;
+body {
+  background-color: rgb(234, 231, 231);
+  background-image: linear-gradient(to right, grey, white);
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
-.titolo-1 {
-  text-align: center;
+p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+h3 {
+  color: black;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0e7eb6;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #031f2e;
+}
+
+h1 {
   background-color: rgba(9, 93, 93, 0.367);
   padding: 20px;
+  text-align: center;
+  border: 5px solid whitesmoke;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
 }
 
-.introduction {
+div.contenitore-supremo {
+  margin-left: 150px;
+  margin-right: 150px;
+  min-width: 400px;
+  max-width: 1015px;
+  color: #eeeeee;
+  margin-top: 40px;
+}
+
+
+div.Barra-di-navigazione {
+
+  color: black;
+  background-color: #eeeeee;
+  padding: 5px;
+  position: sticky;
+  top: 0px;
+  box-shadow: 0px 2px 5px 0px black;
+}
+  
+
+div.introduction {
   background-color: #548CA8;
+  max-width: 1000px;
+  padding: 10px;
+  margin-bottom: 40px;
+  border: 10px solid #476072;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
 }
 
-.main-content {
+.terzo-livello {
+  color: black;
+  margin-bottom: 50px;
+}
+
+div.main-content {
   background-color: #476072;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  max-width: 1000px;
+  padding: 5%;
+  border: 10px solid #548CA8;
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
 }
 
-.contact-us {
-  background-color: #334257;
+
+p.p-link {
+  color: black;
+  margin-bottom: 70px;
 }
-.link-1 {
-  background-color: rgb(115, 196, 169);
-  margin: 40px;
-  border: #334257;
+
+img.immagini-piatti {
+  width: 170px;
+  margin-top: -30px;
+  margin-left: 10px;
+  border: 2px solid rgb(58, 69, 74);
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  box-shadow: 0px 0px black;
+  margin-right: 20px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+/*per creare un idea di movimento aggiungiamo :hover */
+
+img.immagini-piatti:hover{
+  box-shadow: 5px 5px 5px 0px black;
+}
+
+#immagine-pasta {
+  width: 150px;
+  height: 130px;
 }
